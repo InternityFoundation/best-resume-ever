@@ -1,52 +1,59 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
+    first: 'Durul',
     middle: '',
-    last: 'Doe',
+    last: 'Dalkanat',
   },
-  position: 'Software Developer',
+  position: 'Mobile Application Developer',
   birth: {
-    year: 1990,
-    location: 'New York'
+    location: 'Istanbul'
   },
   experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
+      company: ' Blue Whale Apps',
+      position: 'Mobile Application Developer',
+      timeperiod: 'May 2017 - August 2017',
+      description: 'I worked on four different IOS projects with Objective-C and Swift.'
     },
     {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremely important tasks.'
+      company: 'Thinkful',
+      position: 'Swift / iOS Mentor, Coach and Advisor',
+      timeperiod: 'December 2014 - May 2017',
+      description: 'As a mentor, my primary role is to provide guidance and support to mentees based on their unique developmental needs.'
     },
     {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
+      company: 'Introduce Social',
+      position: 'Software Developer',
+      timeperiod: 'June 2016 - December 2016',
+      description: 'Developed iOS and Android Mobile app.'
+    },
+    {
+      company: 'Done Labs',
+      position: 'iOS Lead Developer ',
+      timeperiod: 'January 2015 - August 2015',
+      description: 'Was engineer and leader of all mobile technologies for the company.'
+    },
+    {
+      company: 'Netservis Bilgisayar Sistemleri',
+      position: 'iOS Developer Specialist',
+      timeperiod: 'September 2014 - January 2015',
+      description: 'All my development is done especially for the platform I am targeting - that means Objective-C for iOS, and Java for Android.'
     }
   ],
-  education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
-    },
+  education: [
     {
-      degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
+      degree: 'Associate of Science',
+      timeperiod: 'September 1999 - June 2001',
+      description: 'Faculty of Technical Education, Technical Science, TC.'
     }
   ],
   // skill level goes 0 to 100
   skills: [{
-      name: 'HTML5',
+      name: 'Swift',
       level: '99'
     },
     {
-      name: 'CSS3',
+      name: 'Objective-C',
       level: '95'
     },
     {
@@ -58,30 +65,37 @@ export const PERSON = {
       level: '93'
     },
     {
-      name: 'Angular 2',
+      name: 'React.js',
       level: '60'
     },
     {
-      name: 'TypeScript',
+      name: 'Android',
       level: '80'
     },
     {
-      name: 'ES.Next',
+      name: 'HTML / CSS',
       level: '70'
     },
     {
       name: 'Docker',
       level: '99'
+    },
+    {
+      name: 'DigitalOcean & AWS',
+      level: '90'
+    },
+    {
+      name: 'SQL',
+      level: '80'
     }
   ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
+  skillDescription: 'I am developing for the major mobile platforms, creating apps and experiences for Web, iOS and Android platforms.',
   contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
+    email: 'adurul17@hotmail.com',
+    street: 'Silver Spring',
+    state: 'Maryland',
+    website: 'https://durul.github.io',
+    github: 'durul'
   },
   lang: 'en' // en, de, fr
 };
